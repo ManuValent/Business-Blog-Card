@@ -17,10 +17,16 @@ main {
     border-top-right-radius: 15px;
 }
 
-img {
+.index_image {
     max-width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.white-overlay {
+    position: relative;
+    bottom : 50px;
+    max-width: 100%;
 }
 
 #titleBlog {
@@ -36,7 +42,10 @@ img {
 }
 
 #descriptionCard {
-    padding: 16px;
+    position: relative;
+    bottom : 50px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #authorCard {
